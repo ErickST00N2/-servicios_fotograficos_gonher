@@ -1,0 +1,40 @@
+@import url("../../index.css");
+
+
+
+
+
+
+.my-link:hover, .my-link-main {
+    /* Cambiar color de texto */
+    color: var(--AzulFuerte); 
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 10px; /* Agregar relleno */
+    margin-right: 10px;
+
+}
+
+
+.my-link {
+    color: var(--Blanco)!important; /* Cambiar color de texto */
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 10px; /* Agregar relleno */
+    margin-right: 10px;
+}
+
+.link-btn {
+    color: var(--Negro)!important; /* Cambiar color de texto */
+    background-color: var(--AzulDebilFuerte)!important;
+    border-radius: 10px;
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 8px 13px!important; /* Agregar relleno */
+    
+}
+
+.navbarmenu {
+    font-family: var(--FuentePrincipal)!important;
+    font-size:large;
+    height: 80px;
+    z-index: 1;
+    background-color: var(--Negro)!important;    
+}

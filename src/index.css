@@ -1,4 +1,20 @@
+:root{
+  --Blanco: #fff;
+  --Negro:#000;
+  --AzulFuerte: #00A3FF;
+  --AzulFuerteClaro: #00a2ffdf;
+  --AzulDebilFuerte: #00a2fff5;
+  --AzulDebil: #BCE7FF;
+
+
+  --FuentePrincipal: "DM Sans", sans-serif;
+}
+
+
+
+
 body {
+  background-color: #fff!important;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
