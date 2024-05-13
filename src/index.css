@@ -11,6 +11,12 @@
 }
 
 
+:root::-webkit-scrollbar{
+  display: none;
+  width: 3px;
+  background: transparent;
+}
+
 
 
 body {

@@ -11,6 +11,7 @@ import HomePage from "../Pages/HomePage/HomePage";
 import Error404Page from "../Pages/Error404Page/Error404Page";
 import NosotrosPage from "../Pages/NosotrosPage/NosotrosPage";
 import ContactoPage from "../Pages/ContactoPage/ContactoPage";
+import MiBlogPage from "../Pages/MiBlogPage/MiBlogPage";
 
 
 //Objeto con los nombres de las rutas
@@ -34,22 +35,34 @@ const nameRoutes = {
 let nameRoutes = {
     "HomePage": '/',
 
+    //Nosotros
     "NosotrosPage": '/Nosotros',
+    'MiBlogPage': 'Nosotros/Mi-Blog',
+    "PortafolioPage": '/Portafolio',
+
+
+    //Login, registrarse y recuperar contraseña
+    "LoginPage": '/Login',
+    "UserRegisterPage": '/SignUp',
+    "forgot-password": '/forgot-password',
+
+    //Servicios
+    'BodasPage': '/Bodas',
+    'BautizosPage': '/Bautizos',
+    'XVAniosPage': '/Quinceanios',
+    'EscuelasPage': '/Escuelas',
+
+    //Citas y contacto
     "ContactoPage": '/Contacto',
     "RegistrarCitaPage": '/Registrar-Cita',
     "VerCitasPage": '/Ver-Cita',
 
 
-    "LoginPage": '/Login',
-    "UserRegisterPage": '/SignUp',
-    "forgot-password": '/forgot-password',
-
-
-
-
-
+    //Políticas y términos
     "PolicyPage": '/Policy',
     "TermsPage": '/Terms',
+
+    
     "Error404Page": '*'
 }
 
@@ -76,7 +89,12 @@ let nameRoutes = {
 const Rutas = () => <Routes>
     <Route exact path={nameRoutes.HomePage} element={<HomePage />} />
     <Route exact path={nameRoutes.NosotrosPage} element={<NosotrosPage />} />
+    <Route exact path = {nameRoutes.MiBlogPage} element={<MiBlogPage />} />
+    
     <Route exact path={nameRoutes.ContactoPage} element={<ContactoPage />} />
+
+
+
     {/* <Route exact path={nameRoutes.RegistrarCitaPage} element={<RegistrarCitaPage />} />
         <Route path={nameRoutes.VerCitasPage} element={<VerCitasPage />} />
         <Route exact path={nameRoutes.LoginPage} element={<LoginPage />} />

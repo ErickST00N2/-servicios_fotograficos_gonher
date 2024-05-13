@@ -1,14 +1,14 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import HeaderLayout from '../../layouts/HeaderLayout/HeaderLayout';
+// import HeaderLayout from '../../layouts/HeaderLayout/HeaderLayout';
+import ParticlesBackground from '../../Components/ParticlesBackground/ParticlesBackground.tsx';
 
 
 function HomePage() {
     return (
-        <Container>
-            
-            <HeaderLayout />
-        </Container>
+        <div>
+            {/* <HeaderLayout /> */}
+            <ParticlesBackground/>
+        </div>
     );
 }
 
