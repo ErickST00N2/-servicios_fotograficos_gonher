@@ -11,7 +11,7 @@
       "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "star",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -21,47 +21,47 @@
       },
       "image": {
         "src": "img/github.svg",
-        "width": 100,
-        "height": 100
+        "width": 80,
+        "height": 80
       }
     },
     "opacity": {
-      "value": 0.5,
-      "random": false,
+      "value": 1,
+      "random": true,
       "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
+        "enable": true,
+        "speed": 0.971951110859124,
+        "opacity_min": 0.0971951110859124,
+        "sync": true
       }
     },
     "size": {
-      "value": 3,
+      "value": 7.996801279488208,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 40,
+        "enable": true,
+        "speed": 4.859755554295621,
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 300,
       "color": "#ffffff",
       "opacity": 0.4,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 5,
       "direction": "none",
-      "random": false,
+      "random": true,
       "straight": false,
-      "out_mode": "out",
+      "out_mode": "bounce",
       "bounce": false,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
         "rotateY": 1200
       }
@@ -76,7 +76,7 @@
       },
       "onclick": {
         "enable": true,
-        "mode": "push"
+        "mode": "repulse"
       },
       "resize": true
     },

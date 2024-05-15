@@ -13,7 +13,7 @@
 
 :root::-webkit-scrollbar{
   display: none;
-  width: 3px;
+  width: 3vw;
   background: transparent;
 }
 

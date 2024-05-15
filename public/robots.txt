@@ -1,3 +1,44 @@
+Sitemap: https://serviciosfotograficosgonher.web.app/sitemap.xml
+
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+
+# Allow indexing of all pages
+Allow: /
+Allow: /Nosotros
+Allow: /Nosotros/Mi-Blog
+Allow: /Portafolio
+Allow: /Bodas
+Allow: /Bautizos
+Allow: /Quinceanios
+Allow: /Escuelas
+Allow: /Contacto
+
+# Disallow indexing of admin pages
+Disallow: /admin/*
+Disallow: /admin
+
+
+# Disallow index
+Disallow: /Registrar-Cita
+Disallow: /Ver-Cita
+Disallow: /Login
+Disallow: /SignUp
+Disallow: /forgot-password
+
+# Disallow indexing of images in the /images directory
+Disallow: /images/*
+Disallow: /static/media/*
+
+
+# Allow indexing of CSS and JavaScript files
+Allow: /css/*
+Allow: /js/*
+
+# Instrucciones adicionales (opcional): Puedes usar grupos de User-agent para especificar reglas para robots específicos
+# Ten en cuenta que la mayoría de los motores de búsqueda usan el User-agent *
+
+# Ejemplo (opcional): Deshabilitar la indexación para un motor de búsqueda específico (no recomendado en general)
+# User-agent: SomeBot
+# Disallow: /
+

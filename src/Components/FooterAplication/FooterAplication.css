@@ -1,0 +1,45 @@
+@import url("../../index.css");
+
+.footer-app{
+    padding-top: 30px;
+}
+
+
+.container
+
+.footer-page{
+    /* height: 40vh; */
+    padding: 100px!important;
+}
+
+.icon-footer{
+    color: white!important;
+    font-style: normal;
+}
+.icon-footer:hover{
+    color: var(--AzulFuerte)!important;
+    font-size:x-large!important;
+
+}
+.wa{
+    color: #fff;
+}
+.wa:hover {
+    color: #128c7e!important;
+    font-size:x-large!important;
+}
+.ig{
+    color: #fff;
+}
+.ig:hover {
+    color: #3f729b !important;
+    font-size:x-large!important;
+}
+
+.gmail{
+    color: #fff;
+}
+.gmail:hover {
+    color: #db4a39 !important;
+    font-size:x-large!important;
+}

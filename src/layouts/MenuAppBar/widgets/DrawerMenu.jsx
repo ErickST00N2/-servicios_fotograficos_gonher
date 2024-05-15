@@ -11,11 +11,13 @@ import {
 } from '@mui/icons-material';
 import Colores from '../../../util/colores';
 import LogoMenu from '../../../util/logo-menu.jsx';
+import { nameRoutes } from '../../../router/routes.jsx';
+import LinkButton from './LinkButton.jsx';
 
 function DrawerMenu() {
     // Estado para controlar si el Drawer está abierto o no
     const [open, setOpen] = useState(false);
-    
+
 
     // Obtener la instancia única de Colores
     const colors = Colores.getInstance();
@@ -51,10 +53,10 @@ function DrawerMenu() {
     };
 
     return (
-        <Navbar bg="green" className="bg-body-tertiary navbar-fixed navbarmenu"  >
+        <Navbar className="navbar-fixed navbarmenu bg-black"  >
             <Container>
                 {/* Nav.Link para el logo */}
-                <Nav.Link href="/">
+                {/* <Nav.Link href="/">
                     <img
                         src={LogoMenu}
                         width="120"
@@ -62,14 +64,15 @@ function DrawerMenu() {
                         className="d-inline-block align-top"
                         alt="Nutrición logo"
                     />
-                </Nav.Link>
+                </Nav.Link> */}
+                <strong><LinkButton name='FOTOGRAFÍAS GONHER' ruta={nameRoutes.HomePage} className='my-link-main' /></strong>
 
                 {/* Espaciado para empujar el botón al lado derecho */}
                 <Nav className="ml-auto">
                     {/* Botón que controla la apertura del Drawer */}
                     <Button onClick={handleDrawerToggle}>
                         {/* Usa el ícono de menú */}
-                        <MenuIcon style={{ color: '#000' }} />
+                        <MenuIcon style={{ color: '#fff' }} />
                     </Button>
                 </Nav>
 

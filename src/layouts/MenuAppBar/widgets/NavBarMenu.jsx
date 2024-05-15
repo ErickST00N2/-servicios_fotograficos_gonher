@@ -1,4 +1,4 @@
-// import LogoMenu from '../../../util/logo-menu.jsx';
+
 import LinkButton from "./LinkButton.jsx";
 import { Navbar, Container, NavDropdown } from "react-bootstrap";
 import "../../../util/colores.jsx";
@@ -11,21 +11,22 @@ import { nameRoutes } from "../../../router/routes.jsx";
 
 function NavBarMenu(props) {
   return (
-    <Navbar className=" navbar-fixed navbarmenu"  >
+    <Navbar className="navbar-fixed navbarmenu menu" id="serviciosFGONHER">
+
       <Container>
         <Navbar.Brand>
           {/* <Link to={nameRoutes.WelcomePage}>
-          {/* <img
+          <img
             src={LogoMenu}
             width="150"
             height="70"
             className="d-inline-block align-top"
             alt="Nutrición logo"
-          />{" "} 
-          
-          
-        </Link> */}
-          <strong><LinkButton name='LOGO DE GONHER' ruta={nameRoutes.HomePage} className='my-link-main' /></strong>
+          />{" "}
+
+        </Link>  */}
+          <strong><LinkButton name='FOTOGRAFÍAS GONHER' ruta={nameRoutes.HomePage} className='my-link-main' /></strong>
+
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
@@ -59,7 +60,7 @@ function NavBarMenu(props) {
 
           {/* <button type="button" className="btn ">Registrar</button> */}
           <LinkButton name='Registrar' ruta={nameRoutes.UserRegisterPage}
-            className='btn btn-primary'
+            className='btn btn-primary link-btn'
 
           />
         </Navbar.Collapse>
