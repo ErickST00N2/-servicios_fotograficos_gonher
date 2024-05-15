@@ -1,25 +1,30 @@
-[debug] [2024-05-15T19:20:26.134Z] ----------------------------------------------------------------------
-[debug] [2024-05-15T19:20:26.136Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\personal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2024-05-15T19:20:26.136Z] CLI Version:   13.9.0
-[debug] [2024-05-15T19:20:26.136Z] Platform:      win32
-[debug] [2024-05-15T19:20:26.136Z] Node Version:  v21.0.0
-[debug] [2024-05-15T19:20:26.137Z] Time:          Wed May 15 2024 13:20:26 GMT-0600 (hora estándar central)
-[debug] [2024-05-15T19:20:26.137Z] ----------------------------------------------------------------------
+[debug] [2024-05-15T19:23:34.470Z] ----------------------------------------------------------------------
+[debug] [2024-05-15T19:23:34.472Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\personal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-05-15T19:23:34.473Z] CLI Version:   13.9.0
+[debug] [2024-05-15T19:23:34.473Z] Platform:      win32
+[debug] [2024-05-15T19:23:34.473Z] Node Version:  v21.0.0
+[debug] [2024-05-15T19:23:34.473Z] Time:          Wed May 15 2024 13:23:34 GMT-0600 (hora estándar central)
+[debug] [2024-05-15T19:23:34.474Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-05-15T19:20:26.230Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-05-15T19:20:26.231Z] > authorizing via signed-in user (erickst00n@gmail.com)
-[debug] [2024-05-15T19:20:26.231Z] [iam] checking project serviciosfotograficosgonher for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2024-05-15T19:20:26.233Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions [none]
-[debug] [2024-05-15T19:20:26.233Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions x-goog-quota-user=projects/serviciosfotograficosgonher
-[debug] [2024-05-15T19:20:26.233Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2024-05-15T19:20:26.637Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions 200
-[debug] [2024-05-15T19:20:26.637Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2024-05-15T19:20:26.638Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/serviciosfotograficosgonher [none]
-[debug] [2024-05-15T19:20:26.910Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/serviciosfotograficosgonher 200
-[debug] [2024-05-15T19:20:26.911Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/serviciosfotograficosgonher {"projectId":"serviciosfotograficosgonher","projectNumber":"721187976074","displayName":"ServiciosFotograficosGonHer","name":"projects/serviciosfotograficosgonher","resources":{"hostingSite":"serviciosfotograficosgonher"},"state":"ACTIVE","etag":"1_ef7ddc57-341a-48f3-aee4-0066d045286a"}
+[debug] [2024-05-15T19:23:34.549Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-15T19:23:34.549Z] > authorizing via signed-in user (erickst00n@gmail.com)
+[debug] [2024-05-15T19:23:34.549Z] [iam] checking project serviciosfotograficosgonher for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-15T19:23:34.551Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions [none]
+[debug] [2024-05-15T19:23:34.551Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions x-goog-quota-user=projects/serviciosfotograficosgonher
+[debug] [2024-05-15T19:23:34.551Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-15T19:23:34.985Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions 200
+[debug] [2024-05-15T19:23:34.986Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/serviciosfotograficosgonher:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-15T19:23:34.986Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/serviciosfotograficosgonher [none]
+[debug] [2024-05-15T19:23:35.226Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/serviciosfotograficosgonher 200
+[debug] [2024-05-15T19:23:35.226Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/serviciosfotograficosgonher {"projectId":"serviciosfotograficosgonher","projectNumber":"721187976074","displayName":"ServiciosFotograficosGonHer","name":"projects/serviciosfotograficosgonher","resources":{"hostingSite":"serviciosfotograficosgonher"},"state":"ACTIVE","etag":"1_ef7ddc57-341a-48f3-aee4-0066d045286a"}
 [info] 
 [info] === Deploying to 'serviciosfotograficosgonher'...
 [info] 
 [info] i  deploying hosting 
-[debug] [2024-05-15T19:20:26.919Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/serviciosfotograficosgonher/versions [none]
-[debug] [2024-05-15T19:20:26.919Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/serviciosfotograficosgonher/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-05-15T19:23:35.236Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/serviciosfotograficosgonher/versions [none]
+[debug] [2024-05-15T19:23:35.236Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/serviciosfotograficosgonher/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-05-15T19:23:36.339Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/serviciosfotograficosgonher/versions 200
+[debug] [2024-05-15T19:23:36.339Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/serviciosfotograficosgonher/versions {"name":"projects/721187976074/sites/serviciosfotograficosgonher/versions/59731acc79e0289e","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[serviciosfotograficosgonher]: beginning deploy... 
+[info] i  hosting[serviciosfotograficosgonher]: found 23 files in build 
+[debug] [2024-05-15T19:23:36.350Z] [hosting] uploading with 200 concurrency
